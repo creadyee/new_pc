@@ -1,0 +1,141 @@
+ body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cfcfcf;
+    min-width: 160px;
+    overflow: auto;
+     z-index: 1;
+     border: 2px solid black;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .show {display: block;}
+header a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+header{
+    border: 5px solid #3486eb;
+    background-color:   #3e94fc;
+
+}
+
+ ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+li{
+    text-align: center;
+    display: inline;
+    float: right;
+    width: 80px;
+    font-size: 18px;
+
+}
+img{
+    width: 80px;
+    border-radius: 20px;
+    
+}
+.search{
+    float: right;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.img{
+    text-align: center;
+}
+.h1{
+    float: left;
+  padding-left:20px;
+  
+}
+header{
+    border-top: 20px solid #3486eb;
+    border-bottom: 30px solid #3486eb;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+.BUTTONS{
+    margin-top: 200px;
+    text-align: center;
+
+}
+#BUTTONS{
+    width: 200px;
+
+display: inline;
+
+}
+button{
+    margin: 10px;
+    width: 250px;
+    display: inline;
+    height: 40px;
+    background-color: #7cb7ff;
+    border:2px sold #3486eb;
+   
+}
+.menu{
+    border: solid #3486eb 3px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.box1{
+    border: 5px solid #3486eb;
+    width: 350px;
+    height: 250px;
+    float: left;
+    background-color: #7cb7ff;
+    text-align: center;
+}
+.box2{
+    border: 5px solid #3486eb;
+    height: 250px;
+    width: 310px;
+    float: right; 
+    background-color:  #7cb7ff;
+    text-align: center;
+}
+.box3{
+    padding-right: 390px;
+    padding-bottom: 250px;
+    float: right;
+    margin-right: 10px;
+    background-color:#7cb7ff ;
+    border: 5px solid #3486eb;
+    text-align: center;
+}
+.box4{
+      padding-right: 390px;
+    padding-bottom: 250px;
+    float: right;
+    margin-right: 10px;
+    background-color:#7cb7ff ;
+    border: 5px solid #3486eb;
+}
+.main{
+  padding-bottom:40px;
+}
+.width{
+    width: 1510px;
+    text-align: center;
+}
